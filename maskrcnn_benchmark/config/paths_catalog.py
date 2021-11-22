@@ -20,6 +20,15 @@ class DatasetCatalog(object):
             "coco/val2014",
             "coco/annotations/instances_valminusminival2014.json",
         ),
+        "coco_cell_train_v1": (
+            "coco/cell_train_v1",
+            "coco/annotations/cell_train_v1.json",
+        ),
+        "coco_cell_test_v1": (
+            "coco/cell_test_v1",
+            "coco/annotations/cell_test_v1.json",
+        ),
+
     }
 
     @staticmethod
